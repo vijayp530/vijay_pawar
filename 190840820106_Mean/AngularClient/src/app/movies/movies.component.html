@@ -1,0 +1,18 @@
+<table border="1" >
+    <h2>Movies List</h2>
+ <tr class="style1">
+  
+   <td>No</td> <td>Name</td> <td>Director</td> <td>Rating</td> <td>Budget</td>
+ </tr>
+
+ <tr *ngFor="let item of mv"  class="style">
+
+  <td>{{item.movieid}}</td>
+  <td>{{item.moviename}}</td>
+  <td>{{item.director}}</td>
+  <td>{{item.rating}}</td>
+  <td>{{item.budget}}</td>
+
+
+ </tr>
+</table>
